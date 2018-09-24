@@ -1,0 +1,55 @@
+*{
+    background-color: $backgroundColor;
+}
+
+.container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: $mainWidth;
+    height: $mainHeight;
+}
+
+#btn {
+    text-transform: uppercase;
+    outline: none;
+    background: $mainColor;
+    color: $fontColor;
+    width: $mainWidth;
+    height: $mainHeight;
+    &:hover span {
+        visibility: visible;
+        animation: slidetooltip 0.5s forwards;
+    }   
+}
+
+#popUp {
+    z-index: -1;
+    visibility: hidden;
+    display: inline-block;
+    height: $popUpHeight;
+    width: $popUpWidth;
+    color: $fontColor;
+    position: absolute;
+    left: 0px; 
+    top: 0px;
+    background: $mainColor;
+    line-height: 2.5;
+    padding: 0 20px;
+    margin-left: 5px;
+}
+
+@keyframes slidetooltip {
+    0%{
+        left: 0px; 
+    }
+    50%{
+        left: 125px; 
+    }
+    100%{
+        left: 250px; 
+    }
+}
