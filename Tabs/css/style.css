@@ -1,0 +1,94 @@
+/*Color Variables*/
+/*Color Variables*/
+/*Status Variables*/
+/*Status Variables*/
+/*List Variables*/
+/*List Variables*/
+/*BackLines Variables*/
+.mainBackLineWrapper, .backlines {
+  width: 60vw;
+  height: 100vh; }
+
+/*BackLines Variables*/
+/*Animation Variables*/
+.nav > li:hover {
+  border-top: 4px solid white; }
+
+/*Animation Variables*/
+body {
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: #383636; }
+
+.nav {
+  list-style: none;
+  margin: 0 auto;
+  position: absolute;
+  min-width: 377px;
+  padding: 0;
+  top: 20vh;
+  left: 0;
+  right: 0;
+  width: 377px; }
+
+.nav > li {
+  float: left;
+  position: relative;
+  margin: 5px; }
+  .nav > li:hover {
+    opacity: 0.9;
+    transition: 0.4s; }
+
+.nav li > ul {
+  position: absolute;
+  display: inline-block;
+  padding: 0;
+  list-style: none;
+  display: none; }
+  .nav li > ul ul > li {
+    position: relative;
+    left: 55px;
+    bottom: 62px;
+    padding: 5px; }
+
+.nav li:hover > ul {
+  display: block; }
+
+.mainBackLineWrapper {
+  margin: 0 auto;
+  padding: 0;
+  min-width: 615px;
+  max-width: 615px; }
+
+.backlines {
+  float: left;
+  position: relative;
+  z-index: -1;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 102.5px; }
+  .backlines:hover {
+    opacity: 0.6;
+    transition: 0.5s; }
+
+.red {
+  background-color: #f35f5d; }
+
+.lightblue {
+  background-color: #60dff2; }
+
+.green {
+  background-color: #8bf368; }
+
+.lightpurple {
+  background-color: #cf5cf5; }
+
+.darkpurple {
+  background-color: #6d61f1; }
+
+/*Responsive*/
+@media only screen and (max-width: 615px) {
+  .mainBackLineWrapper {
+    min-width: 513px; } }
+
+/*# sourceMappingURL=style.css.map */
