@@ -1,0 +1,50 @@
+#modalSeccion {
+  display: none;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%; }
+
+.ContenidoModal {
+  background-color: #44B7C8;
+  border-radius: 3px;
+  color: aliceblue;
+  font-size: 36px;
+  margin: 15% auto;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+  top: 0; }
+
+#mainImg {
+  width: 100vw; }
+
+#imgWrapper {
+  margin: 0 auto;
+  text-align: center; }
+
+#mainBtn {
+  background-color: #D2B1E3;
+  border-radius: 5px;
+  color: black;
+  font-size: 2em;
+  height: 10vh;
+  width: 60vh;
+  z-index: 1;
+  position: absolute; }
+
+.block {
+  display: inline-block;
+  width: 100px;
+  height: 100px; }
+
+#closeBtn {
+  border: #74ac0d;
+  cursor: pointer;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
