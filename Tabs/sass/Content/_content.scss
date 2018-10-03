@@ -1,0 +1,87 @@
+body{
+    overflow: hidden;
+    margin: $defaultMargin;
+    background-color: $secondaryColor;
+}
+
+.nav {
+    list-style: $listStyle;
+    margin: $defaultMargin;
+    position: absolute;
+    min-width: $tabsSize;
+    padding: 0;
+    top: $tabsLocation;
+    left: 0;
+    right: 0;
+    width: $tabsSize;
+    
+}
+
+.nav > li {
+   float: $floatingStyle;
+   position: relative;
+   margin: $characterMargin;
+   &:hover {
+       opacity: $opacityCover;
+       @extend %borderOptions;
+       transition: $transitionDelay;
+   }
+}
+
+.nav li > ul {
+    position: absolute;
+    display: inline-block;
+    padding: 0;
+    list-style: $listStyle;
+    display: $deactivateDisplay;
+    
+    ul > li {
+        position: relative;
+        left: 55px;
+        bottom: 62px;
+        padding: 5px;
+    }
+}
+
+.nav li:hover > ul{
+    display: $activeDisplay;
+}
+
+.mainBackLineWrapper{
+    margin: $defaultMargin;
+    @extend %backLinesOptions;
+    padding: 0;
+    min-width: 102.5px*6;
+    max-width: 102.5px*6;
+}
+
+.backlines {
+    @extend %backLinesOptions;
+    float: $floatingStyle;
+    position: relative;
+    z-index: -1;
+    margin: $defaultMargin;
+    padding: 0;
+    max-width: 102.5px;
+    &:hover {
+        opacity: 0.6;
+        transition: 0.5s;
+    }
+}
+
+.red{
+    background-color: $firstBackline;
+}
+.lightblue{
+    background-color: $secondBackline;
+}
+.green{
+    background-color: $thirdBackline;
+}
+.lightpurple{
+    background-color: $fourthBackline;
+}
+.darkpurple{
+    background-color: $fifthBackline;
+}
+

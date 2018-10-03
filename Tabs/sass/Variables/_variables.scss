@@ -1,0 +1,39 @@
+
+/*Color Variables*/
+$primaryColor: black;
+$secondaryColor: #383636;
+$firstBackline: #f35f5d;
+$secondBackline: #60dff2;
+$thirdBackline: #8bf368;
+$fourthBackline: #cf5cf5;
+$fifthBackline: #6d61f1;
+/*Color Variables*/
+
+/*Status Variables*/
+$activeDisplay:block;
+$deactivateDisplay: none;
+$floatingStyle: left;
+$defaultMargin: 0 auto;
+/*Status Variables*/
+
+/*List Variables*/
+$listStyle: none;
+$characterMargin: 5px;
+$opacityCover: 0.9;
+$tabsSize: 377px;
+$tabsLocation: 20vh;
+/*List Variables*/
+
+/*BackLines Variables*/
+%backLinesOptions{
+    width: 60vw;
+    height: 100vh;
+}
+/*BackLines Variables*/
+
+/*Animation Variables*/
+$transitionDelay: 0.4s;
+%borderOptions {
+    border-top: 4px solid white;
+}
+/*Animation Variables*/
