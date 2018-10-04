@@ -19,11 +19,15 @@
   top: 0; }
 
 #mainImg {
-  width: 100vw; }
+  width: 800px; }
 
 #imgWrapper {
   margin: 0 auto;
   text-align: center; }
+
+#main-Wrapper {
+  margin: 0 auto;
+  width: 800px; }
 
 #mainBtn {
   background-color: #D2B1E3;
@@ -41,11 +45,12 @@
     position: relative; }
 
 .block {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
+  display: block;
+  width: 200px;
+  height: 100%;
   border: 1px solid black;
-  position: absolute; }
+  margin: 0;
+  padding: 0; }
 
 #closeBtn {
   border: #74ac0d;
@@ -53,5 +58,23 @@
   float: right;
   font-size: 28px;
   font-weight: bold; }
+
+#block-Wrapper {
+  width: 614px;
+  position: absolute;
+  top: 28vh;
+  height: 300px;
+  margin: 0 auto;
+  right: 0px;
+  left: 0px; }
+
+.block-1 {
+  display: inline-block; }
+
+.block-2 {
+  display: inline-block; }
+
+.block-3 {
+  display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
