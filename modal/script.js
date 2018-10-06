@@ -1,18 +1,18 @@
-// declarando modal
+// Get the modal from the DOM.
 let modal = document.getElementById('modalSeccion');
 
-// declarando botón para abrir modal
+// Get the Opening Btn from the DOM.
 let abrir = document.getElementById("mainBtn");
 
-//elemento button que cierra el modal 
+// Get the Closing Btn from the DOM.
 let button = document.getElementById("closeBtn");
 
-// función de botón para abrir modal
+// Function to display the Modal.
 abrir.onclick = function() {
     modal.style.display = "block";
 }
 
-// función de cerrar botón
+// Function to close the Modal.
 button.onclick = function() {
     modal.style.display = "none";
-}
+} 
